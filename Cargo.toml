@@ -1,0 +1,11 @@
+[package]
+name = "blackhole-wgpu"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+wgpu = "27.0.1"
+winit = "0.30.12"
+pollster = "0.4.0"
+glam = "0.29.0"
+bytemuck = { version = "1.15", features = ["derive"] }
